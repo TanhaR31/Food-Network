@@ -14,12 +14,15 @@ section{
 
 .half-width{
     width: 50%;
-    margin-bottom: 40px;
 }
 
 .middle{
     /* margin-top: 30px; */
-    margin: 10% 0% 10%;
+    margin: 8% 0% 10%;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 200%;
+    color: rgb(88, 88, 88);
 }
 
 .top-img-size{
@@ -40,9 +43,9 @@ section{
 .order-button{
     text-decoration: none;
     background-image: linear-gradient(orange, red);
-    padding: 5px 20px;
+    padding: 20px 40px;
     color: white;
-    border-radius: 20px;
+    border-radius: 40px;
     font-weight: 500;
 }
 
@@ -53,13 +56,14 @@ section{
 }
 
 .scd-img-size{
-    padding-left: 70px;
-    padding-top: 100px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    /* margin-left: 30px;
-    margin-top: 30px; */
-    width: 50%;
+    margin-top: 24%;
+    margin-left: 20%;
+    height: 80%;
+    width: 60%;
+}
+
+.ft-size{
+    padding-right: 20%;
 }
 
 .grey{
@@ -70,20 +74,26 @@ section{
     margin-top: 40px;
     text-align: center;
     color: gray;
+    padding: 0% 30%;
+    font-size: large;
 }
 
 .three-box{
     display: flex;
+    margin: 30px 70px;
+    align-items: center;
 }
 
 .one-third{
     width: 30%;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 20px;
-    padding: 10px 10px;
-    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.254);
-    border-radius: 20px;
+    margin: 0px 30px;
+    padding: 30px 30px;
+    box-shadow: 10px 20px 30px 10px rgba(128, 128, 128, 0.254);
+    border-radius: 30px;
+}
+
+.one-third:hover{
+    box-shadow: 10px 10px 30px orange;
 }
 
 .one-third img{
@@ -92,34 +102,35 @@ section{
 }
 
 .one-third p{
-    font-size: small;
+    font-size: large;
     color: gray;
 }
 
-.one-third h3{
-    font-size: medium;
+.one-third h1{
+    font-weight: 900;
 }
 
 .big-box{
     display: flex;
     width: 100%;
-    height: 100px;
-    margin: 40px 30px;
+    height: 100%;
+    margin: 40px 100px;
     box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.254);
     border-radius: 20px;
 }
 
 .sml-div{
-    height: 20%;
+    height: 50%;
     width: 100%;
-    padding: 0px 0px 0px 20px;
+    padding: 10px 0px 50px 20px;
     text-align: center;
+    font-size: 200%;
 }
 
 .last-section{
     display:block;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     margin: 0%;
     background-color: black;
     color: gray;
